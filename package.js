@@ -6,6 +6,6 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.addFiles('meteor-bootstrap-hover-dropdown.js');
   api.versionsFrom('0.9.0.1');
+  api.addFiles('bootstrap-hover-dropdown/bootstrap-hover-dropdown.js');
 });
