@@ -6,7 +6,9 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('0.9.0.1');
+  api.versionsFrom('0.9.0');
+
   api.use('jquery', 'client');
+
   api.addFiles('bootstrap-hover-dropdown/bootstrap-hover-dropdown.js', 'client');
 });
