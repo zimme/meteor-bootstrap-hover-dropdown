@@ -2,7 +2,7 @@ Package.describe({
   git: 'https://github.com/zimme/meteor-bootstrap-hover-dropdown.git',
   name: 'zimme:bootstrap-hover-dropdown',
   summary: 'Enable Bootstrap dropdowns to activate on hover',
-  version: '2.0.11'
+  version: '2.1.3'
 });
 
 Package.onUse(function(api) {
